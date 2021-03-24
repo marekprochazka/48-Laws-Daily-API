@@ -3,6 +3,8 @@
 
 .idea/
 
+local_settings.py
+
 ### Django ###
 *.log
 *.pot
