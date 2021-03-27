@@ -3,6 +3,8 @@
 
 .idea/
 
+py_anywhere_task.py
+
 local_settings.py
 
 api/static/admin/
