@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'django_crontab',
 
     'frontend.apps.FrontendConfig',
     'myapi.apps.MyapiConfig',
@@ -124,3 +125,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
+
+# Cron
+
+CRONJOBS = [
+    ('*/1 * * * *', 'myapi.cron.generate_new_daily_id')
+]
+
