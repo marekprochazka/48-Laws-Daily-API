@@ -10,6 +10,8 @@ local_settings.py
 cloud_sql_proxy.exe
 connect_to_database.bat
 
+cron.yaml
+
 api/static/admin/
 api/static/rest_framework/
 

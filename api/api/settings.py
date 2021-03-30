@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
-from .local_settings import SECRET_KEY, DB_PASSWORD
+from .local_settings import SECRET_KEY, DB_PASSWORD, SECRET_JOB_KEY
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
