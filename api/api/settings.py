@@ -93,7 +93,7 @@ if os.getenv('GAE_APPLICATION', None):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'HOST': '/cloudsql/lawsdailyapi:europe-central2:laws-daily-database',
+            'HOST': '/cloudsql/lawsapieurope:europe-west3:laws-db',
             'USER': 'admin',
             'PASSWORD': DB_PASSWORD,
             'NAME': 'main',

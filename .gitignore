@@ -8,6 +8,7 @@ py_anywhere_task.py
 local_settings.py
 
 cloud_sql_proxy.exe
+connect_to_database.bat
 
 api/static/admin/
 api/static/rest_framework/
