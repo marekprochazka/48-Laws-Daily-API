@@ -7,6 +7,8 @@ py_anywhere_task.py
 
 local_settings.py
 
+cloud_sql_proxy.exe
+
 api/static/admin/
 api/static/rest_framework/
 
