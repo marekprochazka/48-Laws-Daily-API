@@ -161,7 +161,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 # Cron
 
-CRONJOBS = [
-    ('*/1 * * * *', 'myapi.cron.generate_new_daily_id')
-]
+# CRONJOBS = [
+#     ('*/1 * * * *', 'myapi.cron.generate_new_daily_id')
+# ]
 
